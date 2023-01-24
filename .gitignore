@@ -1,0 +1,9 @@
+#  El asterisco sirve para indicar que en el lugar donde se encuentra puede haber cualquier cadena de caracteres.
+#  Su uso difiere del significado que tiene en regex. 
+#  No es lo mismo 'comodines' que 'expresiones regulares'
+
+# rm -rf .git   --->> elimina el rastreo git de un proyecto
+
+
+
+secrets*.txt
