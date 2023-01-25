@@ -7,6 +7,13 @@
 
 #  rm -rf .git   --->> elimina el rastreo git de un proyecto
 
+#/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#      - Cual es la diferencia de git clone y una fork en github?
 
+#       Cuando hacemos un clon de un repositorio, te bajas una copia del mismo a tu máquina. Empiezas a trabajar, haces 
+#     modificaciones y haces un push. Cuando haces el push estás modificando el repositorio que has clonado.
+#       Cuando haces un fork de un repositorio, se crea un nuevo repositorio en tu cuenta de Github o Bitbucket, con una 
+#     URL diferente (fork). Acto seguido tienes que hacer un clon de esa copia sobre la que empiezas a trabajar de forma 
+#     que cuando haces push, estás modificando TU COPIA (fork). El repositorio original sigue intacto.
 
 secrets?*.txt
