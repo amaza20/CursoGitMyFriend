@@ -16,4 +16,9 @@
 #     URL diferente (fork). Acto seguido tienes que hacer un clon de esa copia sobre la que empiezas a trabajar de forma 
 #     que cuando haces push, estás modificando TU COPIA (fork). El repositorio original sigue intacto.
 
+
+#      El comando 'git pull' ejecuta en primer lugar 'git fetch' , que descarga el contenido 
+#    del repositorio remoto especificado. Después, se ejecuta 'git merge' para fusionar 
+#    las referencias y los encabezados del contenido remoto en una nueva confirmación de fusión local.
+
 secrets?*.txt
